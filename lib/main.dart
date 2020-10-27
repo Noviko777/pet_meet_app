@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Pets meet',
         theme: ThemeData(
-          visualDensity: VisualDensity.adaptivePlatformDensity,
+          visualDensity: VisualDensity.compact,
         ),
         debugShowCheckedModeBanner: false,
         home: MainScreen());
